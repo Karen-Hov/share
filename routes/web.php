@@ -23,7 +23,7 @@ Route::get('/deletefoto/{id}', 'WelcomController@delete')->name('deletefoto');
 
 Auth::routes();
 
-Route::post('/add', 'AddController@index')->name('page');;
+Route::post('/add', 'AddController@index')->name('page');
 
 
 
